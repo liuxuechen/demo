@@ -1,5 +1,5 @@
 h1{
-  background-color: #ffa9e9;
+  background-color: #bfddfc;
   border-style: solid;
   border-width: 5px;
   text-align: center;
@@ -7,6 +7,35 @@ h1{
   color: black;
   margin-top: 60px;
   margin-bottom: 60px;
-  border-color: black;}
+  border-color: black;
+  font-family: Arial,
+        SunSans-Regular, sans-serif}
   h2{
   color:orange}
+
+  body {
+    padding-left: 11em;
+    color: purple;
+    background-color: pink }
+    ul.navbar {
+      list-style-type: none;
+   padding: 0;
+   margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+    h3 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+          ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+  ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: blue }
+  a:visited {
+    color: purple }
